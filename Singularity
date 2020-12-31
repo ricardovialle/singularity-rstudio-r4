@@ -37,8 +37,6 @@ Stage: build
   export RSTUDIO_VERSION=1.3.1093
 
   # Install Dependencies
-  yum -y update
-  yum groupinstall -y "Development Tools"
   yum install -y \
     ca-certificates \
     wget \
