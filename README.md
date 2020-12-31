@@ -23,7 +23,7 @@ Instead of building it yourself you can download the pre-built image from
 [Singularity Hub](https://www.singularity-hub.org) with:
 
 ```sh
-singularity pull --name singularity-rstudio.simg shub://vigo332/singularity-rstudio-r4
+singularity pull --arch amd64 library://vigo332/default/singularity-rstudio-r4:v0.01
 ```
 
 ## Run
